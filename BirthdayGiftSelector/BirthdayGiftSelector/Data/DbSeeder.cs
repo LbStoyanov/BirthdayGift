@@ -11,7 +11,7 @@ public class DbSeeder
             new Employee { Id = 2, Name = "Bob", DateOfBirth = new DateTime(1992, 2, 20), Username = "bob", Password = "pass123" }
         );
 
-        modelBuilder.Entity<Gift>().HasData(
+        modelBuilder.Entity<Gift>().HasData( 
             new Gift { Id = 1, Name = "Gift Card" },
             new Gift { Id = 2, Name = "Headphones" }
         );
